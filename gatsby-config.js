@@ -7,8 +7,9 @@ require("dotenv").config({
 })
 
 module.exports = {
+  pathPrefix: "/teatrrawa", //put here github
   siteMetadata: {
-    title: `Cake It!`,
+    title: `Teatr Rawa`,
     description: `This is Cake It!`,
     author: `@me`,
   },
