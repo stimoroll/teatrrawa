@@ -1,9 +1,11 @@
 // require('dotenv').config();
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET,
+  // api_key: process.env.API_KEY,
+  // api_secret: process.env.API_SECRET,
+  // path: `.env`,
 })
 
 module.exports = {
@@ -53,7 +55,7 @@ module.exports = {
         display: `swap`,
       },
     },
-    `gatsby-theme-wordpress-gutenberg`,
+    // `gatsby-theme-wordpress-gutenberg`,
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
@@ -61,15 +63,12 @@ module.exports = {
     {
       resolve:`gatsby-source-cloudinary`,
       options: {
-        // cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        // apiKey: process.env.CLOUDINARY_API_KEY,
-        // apiSecret: process.env.CLOUDINARY_API_SECRET,
-        cloudName: 'teatrrawa',
-        apiKey: '683758242113594',
-        apiSecret: '0_TXlU3wvOruUNdEOKbTW76A4gg',    
+        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+        apiKey: process.env.CLOUDINARY_API_KEY,
+        apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        type: `type Value`,
-        prefix: `abc-xyz/`
+        // type: `all`,
+        // prefix: `abc-xyz/`
       }
     }
   ],

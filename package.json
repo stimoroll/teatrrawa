@@ -52,9 +52,9 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",s
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "deploy": "NODE_ENV=development gatsby build --prefix-paths && gh-pages -d public",
+    "build": "NODE_ENV=development gatsby build",
+    "develop": "NODE_ENV=development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
