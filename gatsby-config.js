@@ -1,12 +1,16 @@
 // require('dotenv').config();
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-  // api_key: process.env.API_KEY,
-  // api_secret: process.env.API_SECRET,
-  // path: `.env`,
-})
+// require("dotenv").config({
+  // path: `.env.${process.env.NODE_ENV}`,
+// })
+
+const dotenv = require('dotenv');
+const envConfig = 
+dotenv.parse(fs.readFileSync(`.env.${process.env.NODE_ENV}`));
+for (var k in envConfig) {
+  process.env[k] = envConfig[k];
+}
 
 module.exports = {
   pathPrefix: "/teatrrawa", //put here github
