@@ -12,7 +12,7 @@ module.exports = {
   pathPrefix: "/teatrrawa", //put here github
   siteMetadata: {
     title: `Teatr Rawa`,
-    description: `This is Cake It!`,
+    description: `grupa teatralna`,
     author: `@me`,
   },
   plugins: [
