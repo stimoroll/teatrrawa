@@ -11,7 +11,7 @@ dotenv.parse(fs.readFileSync(`.env.${process.env.NODE_ENV}`));
 for (var k in envConfig) {
   process.env[k] = envConfig[k];
 }*/
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=0
+// process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=0
 process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
 process.env["CLOUDINARY_API_KEY"]='683758242113594'
 process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
