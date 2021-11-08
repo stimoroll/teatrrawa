@@ -63,12 +63,12 @@ module.exports = {
         // ulr: `https://trawa1.netlify.app/`
         useACF: true,
         protocol: protocol,
-        // searchAndReplace: [
-        //   {
-        //     search: "https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com",
-        //     replace: baseUrl, //"https://trawa1.netlify.app",
-        //   },
-        // ],
+        searchAndReplace: [
+          {
+            search: "https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com",
+            replace: baseUrl, //"https://trawa1.netlify.app",
+          },
+        ],
       },
     },
     `gatsby-plugin-styled-components`,
