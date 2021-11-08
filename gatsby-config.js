@@ -52,7 +52,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       // resolve: `gatsby-source-wordpress-experimental`,
       options: {
-        baseUrl: `https://trawa1.netlify.app/`,
+        // baseUrl: `https://trawa1.netlify.app/`,
         // url: `http://cakeit.local/graphql`,
         url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         // ulr: `https://trawa1.netlify.app/`
