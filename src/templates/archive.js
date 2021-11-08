@@ -28,6 +28,7 @@ const archiveTemplate = ({
       height={300}
       alt="Archive Hero"
     /> */}
+    <H2>Archive</H2>
     <Wrapper>
       <BreadCrumb
         parent={{
