@@ -1,6 +1,8 @@
 // require('dotenv').config();
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 let env = process.env.NODE_ENV || 'development';
+let baseUrl = process.env.BASE_URL || 'http://localhost:8000'
+let protocol = process.env.PROTOCOL || 'http'
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = '0'; //process.env.NODE_TLS_REJECT_UNAUTHORIZED;
 // require("dotenv").config({
   // path: `.env.${process.env.NODE_ENV}`,
 // })
@@ -52,19 +54,21 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       // resolve: `gatsby-source-wordpress-experimental`,
       options: {
+        verbose: true,
         // baseUrl: `https://trawa1.netlify.app/`,
         // url: `http://cakeit.local/graphql`,
-        baseUrl: '/',
+        // baseUrl: 'http://localhost:8000',
+        // baseUrl: baseUrl,
         url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         // ulr: `https://trawa1.netlify.app/`
         useACF: true,
-        protocol: `https`,
-        searchAndReplace: [
-          {
-            search: "https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com",
-            replace: "https://trawa1.netlify.app",
-          },
-        ],
+        protocol: protocol,
+        // searchAndReplace: [
+        //   {
+        //     search: "https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com",
+        //     replace: baseUrl, //"https://trawa1.netlify.app",
+        //   },
+        // ],
       },
     },
     `gatsby-plugin-styled-components`,
