@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/karolina-klepadlo/",
+    "result": {"data":{"post":{"title":"Karolina Klepadło","content":"\n<p><em>wsparcie merytoryczno-organizacyjne</em></p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"08 11 2021","categories":{"nodes":[{"id":"dGVybTo3MQ==","name":"BACKSTAGE","uri":"/blog/zespol/backstage/","slug":"backstage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTQ3","uri":"/karolina-klepadlo/","__params":{"uri":"karolina-klepadlo"}}},
+    "staticQueryHashes": ["3242319511"]}

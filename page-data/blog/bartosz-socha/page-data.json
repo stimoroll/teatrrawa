@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/bartosz-socha/",
+    "result": {"data":{"post":{"title":"Bartosz Socha","content":"\n<p><em>aktor, scenograf, konstruktor lalek teatralnych</em></p>\n\n\n\n<p>Absolwent Wydziału Lalkarskiego Państwowej Wyższej Szkoły Teatralnej w Krakowie, Wydział Zamiejscowy we Wrocławiu.&nbsp;</p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"07 11 2021","categories":{"nodes":[{"id":"dGVybTo2OA==","name":"ON STAGE","uri":"/blog/zespol/on-stage/","slug":"on-stage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTM4","uri":"/bartosz-socha/","__params":{"uri":"bartosz-socha"}}},
+    "staticQueryHashes": ["3242319511"]}

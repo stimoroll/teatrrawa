@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/ewa-kubiak/",
+    "result": {"data":{"post":{"title":"Ewa Kubiak","content":"\n<p><em>aktorka, reżyserka, założycielka <a href=\"http://localhost:8000/stowarzyszenie/o-teatrze/\" data-type=\"page\" data-id=\"918\">Teatru Rawa</a></em></p>\n\n\n\n<p>Absolwentka <em>Wydziału Filozoficznego Uniwersytetu Jagiellońskiego w Krakowie</em> oraz <em>Szkoły Aktorskiej Teatru Śląskiego w Katowicach</em>. Z zamiłowania joginka, prywatnie kocia mama, czechofilka, fanka nurtu zero waste i ajurwedy.</p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"01 11 2021","categories":{"nodes":[{"id":"dGVybTo2OA==","name":"ON STAGE","uri":"/blog/zespol/on-stage/","slug":"on-stage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTA4","uri":"/ewa-kubiak/","__params":{"uri":"ewa-kubiak"}}},
+    "staticQueryHashes": ["3242319511"]}

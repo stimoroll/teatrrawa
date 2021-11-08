@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/hubert-bronicki/",
+    "result": {"data":{"post":{"title":"Hubert Bronicki","content":"\n<p><em>aktor, reżyser, założyciel Teatru Rawa</em></p>\n\n\n\n<p>Absolwent Wydziału Aktorskiego Państwowej Wyższej Szkoły Teatralnej w Krakowie. Pasjonat.</p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"07 11 2021","categories":{"nodes":[{"id":"dGVybTo2OA==","name":"ON STAGE","uri":"/blog/zespol/on-stage/","slug":"on-stage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTM0","uri":"/hubert-bronicki/","__params":{"uri":"hubert-bronicki"}}},
+    "staticQueryHashes": ["3242319511"]}

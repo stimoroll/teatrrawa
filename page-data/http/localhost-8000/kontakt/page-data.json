@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-wp-page-link-js",
+    "path": "/http/localhost-8000/kontakt/",
+    "result": {"data":{"wpPage":{"id":"cG9zdDoyNDA=","title":"Kontakt","content":"<p><a href=\"http://localhost:8000/ewa-kubiak/\"><span style=\"font-weight: 400;\">Ewa Kubiak</span></a></p>\n<p><span style=\"font-weight: 400;\">tel. +48 509 903 316</span></p>\n<p><a href=\"http://localhost:8000/hubert-bronicki/\"><span style=\"font-weight: 400;\">Hubert Bronicki</span></a></p>\n<p><span style=\"font-weight: 400;\">tel. +48 604 644 458</span></p>\n<p><span style=\"font-weight: 400;\">e-mail: </span><a href=\"mailto:teatr.rawa@gmail.com\"><span style=\"font-weight: 400;\">teatr.rawa@gmail.com</span></a></p>\n","status":"publish","featuredImage":null,"wpChildren":{"nodes":[]},"wpParent":null}},"pageContext":{"id":"cG9zdDoyNDA=","link":"http://localhost:8000/kontakt/","__params":{"link":"http"}}},
+    "staticQueryHashes": ["3242319511"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-wp-page-link-js",
+    "path": "/http/localhost-8000/nagrody/",
+    "result": {"data":{"wpPage":{"id":"cG9zdDoxOTIy","title":"Nagrody","content":"\n<p><strong>NAGRODY</strong></p>\n\n\n\n<p>2013 Grand Prix festiwalu Małych Form Teatralnych „Karbidka” w Siemianowicach Śląskich za&nbsp;spektakl „Katechizm Białego Człowieka”</p>\n\n\n\n<p>2016 Mały Laur Konrada w ramach XVIII&nbsp;Ogólnopolskiego Festiwalu Sztuki Reżyserskiej INTERPRETACJE za spektakl „SALIERI”</p>\n\n\n\n<p>2020 II Nagroda w ramach Sopockich Konsekwencji Teatralnych 2020 dla spektaklu „ANGEKOK. Opowieść arktyczna”</p>\n","status":"publish","featuredImage":null,"wpChildren":{"nodes":[]},"wpParent":null}},"pageContext":{"id":"cG9zdDoxOTIy","link":"http://localhost:8000/nagrody/","__params":{"link":"http"}}},
+    "staticQueryHashes": ["3242319511"]}

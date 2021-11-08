@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/monika-kubiak/",
+    "result": {"data":{"post":{"title":"Monika Kubiak","content":"\n<p><em>tłumaczka i lektorka j. angielskiego, wsparcie ds. promocji i social mediów</em></p>\n\n\n\n<p>absolwentka Uniwersytetu Jagiellońskiego i Universidad CEU San Pablo w Madrycie. Zawodowo operuje słowem. Zajmuje się tworzeniem i tłumaczeniem tekstów. Uwielbia przestrzeń, uczucie lekkości po zanurzeniu w wodzie i mruczenie kota.</p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"08 11 2021","categories":{"nodes":[{"id":"dGVybTo3MQ==","name":"BACKSTAGE","uri":"/blog/zespol/backstage/","slug":"backstage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTUx","uri":"/monika-kubiak/","__params":{"uri":"monika-kubiak"}}},
+    "staticQueryHashes": ["3242319511"]}

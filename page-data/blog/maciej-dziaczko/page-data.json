@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-wp-post-uri-js",
+    "path": "/blog/maciej-dziaczko/",
+    "result": {"data":{"post":{"title":"Maciej Dziaczko","content":"\n<p><em>reżyser, reżyser światła, fotograf, ekspert ds. nowych mediów</em></p>\n","author":{"node":{"name":"Teatr Rawa"}},"date":"08 11 2021","categories":{"nodes":[{"id":"dGVybTo3MQ==","name":"BACKSTAGE","uri":"/blog/zespol/backstage/","slug":"backstage"},{"id":"dGVybTo2NA==","name":"Zespół","uri":"/blog/zespol/","slug":"zespol"}]}}},"pageContext":{"id":"cG9zdDoxOTQz","uri":"/maciej-dziaczko/","__params":{"uri":"maciej-dziaczko"}}},
+    "staticQueryHashes": ["3242319511"]}
