@@ -54,6 +54,7 @@ module.exports = {
       options: {
         // baseUrl: `https://trawa1.netlify.app/`,
         // url: `http://cakeit.local/graphql`,
+        baseUrl: '/',
         url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         // ulr: `https://trawa1.netlify.app/`
         useACF: true,
