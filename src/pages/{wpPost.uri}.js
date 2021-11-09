@@ -2,9 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
-import Layout from "../../components/Layout/Layout"
-import BreadCrumb from "../../components/BreadCrumb/BreadCrumb"
-import PostSidebar from "../../components/PostSidebar/PostSidebar"
+import Layout from "../components/Layout/Layout"
+import BreadCrumb from "../components/BreadCrumb/BreadCrumb"
+import PostSidebar from "../components/PostSidebar/PostSidebar"
 
 const Wrapper = styled.div`
   max-width: 1180px;
@@ -26,12 +26,12 @@ const PostContent = styled.article`
 const PostTemplate = ({ data }) => (
   <Layout>
     <Wrapper>
-      <BreadCrumb
+      {/* <BreadCrumb
         parent={{
-          uri: "/blog/",
+          uri: "/blog/all-posts",
           title: "blog",
         }}
-      />
+      /> */}
       <ContentWrapper>
         <PostSidebar
           date={data.post.date}

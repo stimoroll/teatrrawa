@@ -7,7 +7,7 @@ import { Overlay } from "./OverlayMenu.styles"
 
 const OverlayMenu = ({ menuOpen, callback }) => {
   const { menu } = useMenuQuery()
-
+  console.log(menu);
   return (
     <Overlay menuOpen={menuOpen}>
       <div className="inner">

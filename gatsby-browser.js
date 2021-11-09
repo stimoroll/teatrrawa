@@ -5,13 +5,10 @@
  */
 
 // You can delete this file if you're not using it
-
-const Layout = ({props}) => {
-  
-}
+/*
 
 const React = require("react")
-// const Layout = require("./src/components/layout")
+// const Layout = require("./src/components/LayoutBasic")
 // Logs when the client route changes
 exports.onRouteUpdate = ({ location, prevLocation }) => {
   console.log("new pathname", location.pathname)
@@ -20,4 +17,4 @@ exports.onRouteUpdate = ({ location, prevLocation }) => {
 // Wraps every page in a component
 exports.wrapPageElement = ({ element, props }) => {
   return <Layout {...props}>{element}</Layout>
-}
+} */

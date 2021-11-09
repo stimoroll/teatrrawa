@@ -35,6 +35,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-canonical-urls`,
+    //   options: {
+    //     siteUrl: `https://www.example.com`,
+    //   },
+    // },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

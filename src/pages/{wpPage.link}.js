@@ -10,10 +10,10 @@ import PageSidebar from "../components/PageSidebar/PageSidebar"
 // import Block from "../../../../components/block"
 
 // import "@rmwc/tooltip/styles"
-/*
 export const Block = styled.div`
-  display: block;
+display: block;
 `
+/*
 
 export const query = graphql`
   fragment Paragraph on WpCoreParagraphBlock {
