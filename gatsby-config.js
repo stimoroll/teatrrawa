@@ -28,17 +28,17 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: `${__dirname}/src/images`,
+    //   },
+    // },
     // {
     //   resolve: `gatsby-plugin-canonical-urls`,
     //   options: {
-    //     siteUrl: `https://www.example.com`,
+    //     siteUrl: baseUrl,
     //   },
     // },
     `gatsby-plugin-image`,
@@ -96,10 +96,19 @@ module.exports = {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
-        resourceType: `image`,
+        resourceType: `all`,
         // type: `all`,
         // prefix: `abc-xyz/`
       }
-    }
+    },
+    // {
+    //   resolve: 'gatsby-transformer-cloudinary',
+    //   options: {
+    //     cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+    //     apiKey: process.env.CLOUDINARY_API_KEY,
+    //     apiSecret: process.env.CLOUDINARY_API_SECRET,
+    //     uploadFolder: 'gatsby-cloudinary',
+    //   },
+    // },
   ],
 }

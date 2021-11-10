@@ -17,9 +17,42 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           fieldValue
           edges {
             node {
-              title
               date(formatString: "MMMM DD, YYYY")
               content
+              id
+              link
+              uri
+              title
+              featuredImageId
+              featuredImage {
+                node {
+                  id
+                  mediaItemId
+                  mediaItemUrl
+                  srcSet
+                  sourceUrl
+                  uri
+                  title
+                }
+              }
+            }
+          }
+        }
+        nodes {
+          id
+          link
+          uri
+          title
+          featuredImageId
+          featuredImage {
+            node {
+              id
+              mediaItemId
+              mediaItemUrl
+              srcSet
+              sourceUrl
+              uri
+              title
             }
           }
         }
@@ -59,7 +92,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(typeDefs);
 };
 
-const CategoryTemplate = ({ data, pageContext }) => {
+/*const CategoryTemplate = ({ data, pageContext }) => {
   console.log(data)
      console.log(pageContext)
   return (
@@ -85,4 +118,4 @@ const CategoryTemplate = ({ data, pageContext }) => {
      </div>
     </Layout>
    )
-  }
+  } */

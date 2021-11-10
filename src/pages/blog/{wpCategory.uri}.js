@@ -1,7 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 export default function Component(props) {
-  return props.data.fields.sku + props.params.name
+  console.log(props.data);
+  // return props.data.fields.sku + props.params.name
+  console.log(props.data.allWpPost.edges);
+  return (
+  <div>
+    <h2 style={{marginTop:'200px'}}>Lista 2</h2>
+    {props.data.allWpPost.edges.map(item => <div>{item}</div>)}
+  </div>)
 }
 // This is the page query that connects the data to the actual component. Here you can query for any and all fields
 // you need access to within your code. Again, since Gatsby always queries for `id` in the collection, you can use that
