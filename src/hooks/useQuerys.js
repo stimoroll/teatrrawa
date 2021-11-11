@@ -26,24 +26,24 @@ import { useStaticQuery, graphql } from "gatsby"
 //Post by Tags or Categories
 //All posts and then sort, filter by categories
 
-export const useAboutQuery = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      wpPage(databaseId: { eq: 47 }) {
-        content
-        featuredImage {
-          node {
-            localFile {
-              publicURL
-            }
-          }
-        }
-      }
-    }
-  `)
+// export const useAboutQuery = () => {
+//   const data = useStaticQuery(graphql`
+//     query {
+//       wpPage(databaseId: { eq: 47 }) {
+//         content
+//         featuredImage {
+//           node {
+//             localFile {
+//               publicURL
+//             }
+//           }
+//         }
+//       }
+//     }
+//   `)
 
-  return data
-}
+//   return data
+// }
 
 /* 
 //all events 

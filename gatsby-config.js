@@ -62,11 +62,11 @@ module.exports = {
       options: {
         verbose: true,
         // baseUrl: `https://trawa1.netlify.app/`,
-        // url: `http://cakeit.local/graphql`,
         // baseUrl: 'http://localhost:8000',
         // baseUrl: baseUrl,
-        url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         // ulr: `https://trawa1.netlify.app/`
+        url: `http://cakeit.local/graphql`,
+        // url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         useACF: true,
         protocol: protocol,
         searchAndReplace: [

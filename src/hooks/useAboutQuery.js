@@ -7,14 +7,15 @@ export const useAboutQuery = () => {
         content
         featuredImage {
           node {
-            localFile {
-              publicURL
-            }
+            id
           }
         }
       }
     }
   `)
+            // localFile {
+              // # publicURL
+            // }
 
   return data
 }

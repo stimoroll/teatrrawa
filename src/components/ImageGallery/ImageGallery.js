@@ -15,11 +15,11 @@ const ImageGallery = () => {
                 root
                 relativePath
                 relativeDirectory
-                publicURL
               }
             }
           }`
     )
+    // # publicURL
     console.log(data.allFile.nodes);
     const allFile = data.allFile.nodes
     return (

@@ -7,6 +7,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const result = await graphql(`
     {
+      posts {
+        pageInfo {
+          endCursor
+          startCursor
+        }
+        nodes {
+          id
+          link
+          uri
+          title
+          featuredImageId
+          featuredImage {
+            node {
+              id
+              mediaItemId
+              mediaItemUrl
+              srcSet
+              sourceUrl
+              uri
+              title
+            }
+          }
+        }
+      }
+    }      
       wp {
         readingSettings {
           postsPerPage
