@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   padding: 20px;
   color: #000;
 `
+// "mediaItemUrl"
 
 const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 const ComponentName2 = ({ data }) => (
@@ -18,7 +19,7 @@ const ComponentName2 = ({ data }) => (
     {data.allWpPost.edges.map(item => (
       <li>
         <a href={item?.node?.link}>{item?.node?.title}</a>
-        <p>{JSON.stringify(item?.node?.featuredImage?.node, null, 4)}</p>
+        {/* <p>{JSON.stringify(item?.node?.featuredImage?.node, null, 4)}</p> */}
       </li>
     ))}
     </ul>
