@@ -17,7 +17,8 @@ const ComponentName2 = ({ data }) => (
     <ul>
     {data.allWpPost.edges.map(item => (
       <li>
-        <a href={item.node.link}>{item.node.title}</a>
+        <a href={item?.node?.link}>{item?.node?.title}</a>
+        <p>{JSON.stringify(item?.node?.featuredImage?.node, null, 4)}</p>
       </li>
     ))}
     </ul>

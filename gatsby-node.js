@@ -31,12 +31,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
       }
-    }      
-      wp {
-        readingSettings {
-          postsPerPage
-        }
-      }
+    }
       allWpPost {
         group(field: categories___nodes___name) {
           fieldValue
