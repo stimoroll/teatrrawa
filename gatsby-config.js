@@ -74,7 +74,7 @@ module.exports = {
         protocol: protocol,
         searchAndReplace: [
           {
-            search: "https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com",
+            search: "https://ec2-3-68-233-90.eu-central-1.compute.amazonaws.com",
             replace: baseUrl, //"https://trawa1.netlify.app",
           },
         ],
