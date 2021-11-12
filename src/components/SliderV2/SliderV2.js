@@ -198,7 +198,7 @@ export default function SliderV2() {
           <Slide
             header="Hamlet na Bekonie"
             text="kulinarno-teatralny przepis na sukces"
-            src="https://res.cloudinary.com/teatrrawa/video/upload/v1630763866/video_baner_plaza1.mp4"
+            src="https://res.cloudinary.com/teatrrawa/video/upload/v1636563963/BANNERY_FILMOWE/Baner_Trawa_team_ds59gw.mp4"
           >
               <h4>premiera miesiąca</h4>
               <h1>Hamlet na Bekonie</h1>
@@ -207,7 +207,7 @@ export default function SliderV2() {
           <Slide
             header="Nagłówek pierwszy"
             text="Lorem ipsum dolor"
-            src="https://res.cloudinary.com/teatrrawa/video/upload/v1630764141/Baner_Trawa_team_169446bcd.mp4"
+            src="https://res.cloudinary.com/teatrrawa/video/upload/v1636563943/BANNERY_FILMOWE/video_baner_w%C3%B3z1_y4ailj.mp4"
           >
               <h4>premiera</h4>
               <h1>Nerwica Natręctfff</h1>
@@ -219,7 +219,7 @@ export default function SliderV2() {
           <Slide
             header="Tytuł zastępczy"
             text="zastępczy opis tymczsowy"
-            src="https://res.cloudinary.com/teatrrawa/video/upload/v1630764375/video_baner_wo%CC%81z1_16881a50a.mp4"
+            src="https://res.cloudinary.com/teatrrawa/video/upload/v1636563949/BANNERY_FILMOWE/video_baner_plaza1_mfsdmj.mp4"
           >
               <h4>nowy spektakl</h4>
               <h1>Tytuł zastępczy</h1>
