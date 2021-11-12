@@ -2,6 +2,7 @@
 let env = process.env.NODE_ENV || 'development';
 let baseUrl = process.env.BASE_URL || 'http://localhost:8000'
 let protocol = process.env.PROTOCOL || 'http'
+let basegql = process.env.BASE_GQL || 'http://cakeit.local/graphql'
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = '0'; //process.env.NODE_TLS_REJECT_UNAUTHORIZED;
 // require("dotenv").config({
   // path: `.env.${process.env.NODE_ENV}`,
@@ -65,7 +66,8 @@ module.exports = {
         // baseUrl: 'http://localhost:8000',
         // baseUrl: baseUrl,
         // ulr: `https://trawa1.netlify.app/`
-        url: `http://cakeit.local/graphql`,
+        // url: `http://cakeit.local/graphql`,
+        url: basegql,
         // url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
         useACF: true,
         protocol: protocol,
