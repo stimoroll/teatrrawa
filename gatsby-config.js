@@ -3,7 +3,7 @@ let env = process.env.NODE_ENV || 'development';
 let baseUrl = process.env.BASE_URL || 'http://localhost:8000'
 let protocol = process.env.PROTOCOL || 'http'
 let basegql = process.env.BASE_GQL || 'http://cakeit.local/graphql'
-let base = process.env.BASE || 'http://cakeit.local'
+let base = process.env.BASE || 'https://ec2-3-68-233-90.eu-central-1.compute.amazonaws.com' //'http://cakeit.local'
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = '0'; //process.env.NODE_TLS_REJECT_UNAUTHORIZED;
 // require("dotenv").config({
   // path: `.env.${process.env.NODE_ENV}`,
@@ -16,10 +16,10 @@ for (var k in envConfig) {
   process.env[k] = envConfig[k];
 }*/
 // process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=0
-// process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
-// process.env["CLOUDINARY_API_KEY"]='683758242113594'
-// process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
-// process.env["CLOUDINARY_URL"]='cloudinary://683758242113594:0_TXlU3wvOruUNdEOKbTW76A4gg@teatrrawa'
+process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
+process.env["CLOUDINARY_API_KEY"]='683758242113594'
+process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
+process.env["CLOUDINARY_URL"]='cloudinary://683758242113594:0_TXlU3wvOruUNdEOKbTW76A4gg@teatrrawa'
 
 module.exports = {
   pathPrefix: "/teatrrawa", //put here github
@@ -75,7 +75,7 @@ module.exports = {
         protocol: protocol,
         searchAndReplace: [
           {
-            search: `${basegql}`,
+            search: `${base}`,
             replace: baseUrl, //"https://trawa1.netlify.app",
           },
         ],
