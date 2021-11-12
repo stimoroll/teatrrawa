@@ -27,7 +27,6 @@
     "gatsby-source-cloudinary": "^0.1.14",
     "gatsby-source-filesystem": "^4.1.1",
     "gatsby-source-wordpress": "^6.1.1",
-    "gatsby-source-wpgraphql-images": "^1.1.0",
     "gatsby-theme-wordpress-gutenberg": "^0.1.0",
     "gatsby-transformer-cloudinary": "^2.2.4",
     "gatsby-transformer-sharp": "^4.1.0",
