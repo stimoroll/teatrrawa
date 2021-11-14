@@ -16,10 +16,10 @@ for (var k in envConfig) {
   process.env[k] = envConfig[k];
 }*/
 // process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=1
-process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
-process.env["CLOUDINARY_API_KEY"]='683758242113594'
-process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
-process.env["CLOUDINARY_URL"]='cloudinary://683758242113594:0_TXlU3wvOruUNdEOKbTW76A4gg@teatrrawa'
+// process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
+// process.env["CLOUDINARY_API_KEY"]='683758242113594'
+// process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
+// process.env["CLOUDINARY_URL"]='cloudinary://683758242113594:0_TXlU3wvOruUNdEOKbTW76A4gg@teatrrawa'
 
 module.exports = {
   pathPrefix: "/teatrrawa", //put here github
