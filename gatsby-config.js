@@ -78,8 +78,8 @@ module.exports = {
         url: `${base}/graphql`,
         // url: `https://ec2-3-68-233-90.eu-central-1.compute.amazonaws.com/graphql`,
         // url: `https://ec2-3-121-218-170.eu-central-1.compute.amazonaws.com/graphql`,
-        // useACF: true,
-        // protocol: protocol,
+        useACF: true,
+        protocol: protocol,
         searchAndReplace: [
           {
             search: `${base}`,
