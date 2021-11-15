@@ -4,7 +4,7 @@ let baseUrl = process.env.BASE_URL || 'http://localhost:8000'
 let protocol = process.env.PROTOCOL || 'http'
 let basegql = process.env.BASE_GQL || 'http://cakeit.local/graphql'
 let base = process.env.BASE || 'https://ec2-3-68-233-90.eu-central-1.compute.amazonaws.com' //'http://cakeit.local'
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = process.env.NODE_TLS_REJECT_UNAUTHORIZED || 1
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = process.env.NODE_TLS_REJECT_UNAUTHORIZED || 0
 // require("dotenv").config({
   // path: `.env.${process.env.NODE_ENV}`,
 // })
