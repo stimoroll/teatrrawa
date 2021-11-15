@@ -1,4 +1,10 @@
 // require('dotenv').config();
+process.env["NODE_ENV"] = "production"
+process.env["PROTOCOL"] = 'https'
+// process.env["BASE_URL"]
+// process.env["BASE_GQL"]="trawa1.netlify.com"
+process.env["BASE"]="https://ec2-3-68-233-90.eu-central-1.compute.amazonaws.com"
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=0
 let env = process.env.NODE_ENV || 'development';
 let baseUrl = process.env.BASE_URL || 'http://localhost:8000'
 let protocol = process.env.PROTOCOL || 'http'
@@ -15,7 +21,7 @@ dotenv.parse(fs.readFileSync(`.env.${process.env.NODE_ENV}`));
 for (var k in envConfig) {
   process.env[k] = envConfig[k];
 }*/
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=1
+
 process.env["CLOUDINARY_CLOUD_NAME"]='teatrrawa'
 process.env["CLOUDINARY_API_KEY"]='683758242113594'
 process.env["CLOUDINARY_API_SECRET"]='0_TXlU3wvOruUNdEOKbTW76A4gg'
